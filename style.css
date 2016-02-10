@@ -1,0 +1,320 @@
+/* całość powierzchni strony */
+body
+{
+	color: white;
+	background-color: grey;
+	font-size: 18px;
+}
+
+/* blok  treści */
+#container 
+{
+	width: 800px; 
+	margin: 20px auto;
+}
+
+/* czcionki */
+h1
+{
+	font-size: 36px;
+}
+
+h2
+{
+	font-size: 24px;
+}
+
+
+/* menu na pierwszej stronie */
+#kratka
+{
+	width: 198px;
+	height: 160px;
+	border: solid 1px black;
+}
+
+/* menu na pozostałych stronach */
+#menu
+{
+	background-color: black;
+	min-height: 50px;
+}
+
+#menu table
+{
+	width: 100%;
+}
+
+#menu td
+{
+	text-align: center;
+	padding: 10px;
+}
+
+#menu a
+{
+	font-size: 16px;
+	color: yellow;
+	text-decoration: none;
+	text-align: center;
+	font-family: Impact;
+}
+
+
+#menu a:hover
+{
+	color: chartreuse;
+}
+
+/* tytul */
+#tytul
+{
+	text-align: center;
+	background: url("obrazki/t1.jpg");
+}
+
+#tytul h1
+{
+	font-size: 48px;
+	box-shadow: 5px 5px 10px #111111;
+	padding: 30px;
+	color: black;
+}
+
+/* bloki kolorów */
+#bialy
+{
+	width: 740px;
+	padding: 10px 30px;
+	min-height: 250px;
+	text-align: left;
+	color: black;
+	background-color: white;
+}
+
+#bialy h1
+{
+	color: darkblue;
+}
+
+#zolty
+{
+	width: 740px;
+	padding: 10px 30px;
+	min-height: 250px;
+	text-align: left;
+	color: black;
+	background-color: yellow;
+}
+
+#zolty h1
+{
+	color: darkviolet;
+}
+
+#pomaranczowy
+{
+	width: 740px;
+	padding: 10px 30px;
+	min-height: 250px;
+	text-align: left;
+	color: black;
+	background-color: orange;
+}
+
+#pomaranczowy h1
+{
+	color: darkblue;
+}
+
+#czerwony
+{
+	width: 740px;
+	padding: 10px 30px;
+	min-height: 250px;
+	text-align: left;
+	color: white;
+	background-color: red;
+}
+
+#czerwony h1
+{
+	color: black;
+}
+
+#rozowy
+{
+	width: 740px;
+	padding: 10px 30px;
+	min-height: 250px;
+	text-align: left;
+	color: white;
+	background-color: deeppink;
+}
+
+#rozowy h1
+{
+	color: yellow;
+}
+
+#fioletowy
+{
+	width: 740px;
+	padding: 10px 30px;
+	min-height: 250px;
+	text-align: left;
+	color: white;
+	background-color: darkviolet;
+}
+
+#fioletowy h1
+{
+	color: yellow;
+}
+
+#niebieski
+{
+	width: 740px;
+	padding: 10px 30px;
+	min-height: 250px;
+	text-align: left;
+	color: white;
+	background-color: blue;
+}
+
+#niebieski h1
+{
+	color: orange;
+}
+
+#zielony
+{
+	width: 740px;
+	padding: 10px 30px;
+	min-height: 250px;
+	text-align: left;
+	color: yellow;
+	background-color: green;
+}
+
+#zielony h1
+{
+	color: red;
+}
+
+#brazowy
+{
+	width: 740px;
+	padding: 10px 30px;
+	min-height: 250px;
+	text-align: left;
+	color: white;
+	background-color: saddlebrown;
+}
+
+#brazowy h1
+{
+	color: yellow;
+}
+
+#czarny
+{
+	width: 740px;
+	padding: 10px 30px;
+	min-height: 250px;
+	text-align: left;
+	color: yellow;
+	background-color: black;
+}
+
+#czarny h1
+{
+	color: white;
+}
+
+#szary
+{
+	width: 740px;
+	padding: 10px 30px;
+	min-height: 250px;
+	text-align: left;
+	
+	color: white;
+	background-color: grey;
+}
+
+#szary h1,h2
+{
+	color: black;
+}
+
+/* rysunki i zdjęcia */
+#kolo
+{
+	margin: 0 20px 0 20px;
+	max-width: 300px;
+	max-height: 300PX;
+}
+
+#foto
+{
+	margin: 0 20px 0 20px;
+	max-width: 200px;
+	max-height: 200PX;
+	border: solid 4px white;
+	box-shadow: 5px 5px 10px #111111;
+}
+
+#galeria
+{
+	width: 740px;
+	padding: 10px 30px;
+	text-align: center;
+}
+
+#galeria img
+{
+	margin: 10px;
+	max-width: 320px;
+	max-height: 320px;
+	border: solid 4px white;
+	box-shadow: 5px 5px 10px #111111;
+}
+
+/* stopka i przypis */
+
+#stopka_czarna
+{
+	width: 740px;
+	padding: 10px 30px;
+	text-align: center;
+	color: yellow;
+	background-color: black;
+}
+
+#stopka_biala
+{
+	width: 740px;
+	padding: 10px 30px;
+	text-align: center;
+	color: darkblue;
+	background-color: white;
+}
+
+#przypis
+{
+	font-size: 10px;
+}
+
+#przypis a
+{
+	color: yellow;
+	text-decoration: none;
+}
+
+#przypis a:hover
+{
+	font-size: 24px;
+}
+
+
